@@ -1,0 +1,8 @@
+
+*.gramps
+
+bin/Debug/
+
+.vs/GrampsReader/v17/.suo
+
+obj/Debug/
