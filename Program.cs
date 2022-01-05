@@ -43,6 +43,7 @@ namespace GrampsReader
                         var last = name.Element(gr + "surname")?.Value;
                         Console.WriteLine($"Person: {first} {last}");
                     }
+
                     // Trim alle dubbele komma's uit plaatsnamen.
                     foreach (XElement cell in doc.Element(gr + "database").Element(gr + "places").Elements(gr + "placeobj"))
                     {
